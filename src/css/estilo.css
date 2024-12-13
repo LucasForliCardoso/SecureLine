@@ -1,0 +1,101 @@
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: var(--bg-color1);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    width: 8%;
+}
+header .title{
+    font-size: 2.5rem;
+    color: white;
+}
+header nav ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+header nav ul li a{
+    color: white;
+    font-size: 1.5rem;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.txt-1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:30px;
+    gap: 20px;
+}
+.txt-1 h1{
+    font-size: 2rem;
+    color: white;
+}
+.txt-1 article p{
+    width: 70%;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: justify;
+}
+.card-box{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+}
+.card-box .cards{
+    width: 25%;
+    height: 80%;
+    background-color: var(--bg-color2);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+.card-box .cards img{
+    width: 100%;
+    height: 80%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/*footer*/
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--bg-color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,22 @@
+:root{
+    --bg-color1: #082338;
+    --bg-color2: #F38608;
+
+    --font-color1: #082338;
+    --font-color2: #F38608;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+    background-image: url(../assets/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    object-fit: cover;
+}
